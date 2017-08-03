@@ -1,0 +1,363 @@
+@font-face {
+    font-family: CaviarDreams_Italic; /* Гарнитура шрифта */
+    src: url(./font/CaviarDreams_Italic.ttf); /* Путь к файлу со шрифтом */
+}
+.head {
+	position: relative;
+	height: 470px;
+}
+.navigation {
+	display: block;
+	z-index: 1;
+}
+.carousel {
+	position: absolute;
+}
+.logo {
+	top: 20px;
+    color: #f9ad18;
+    font-size: x-large;
+	font-family: CaviarDreams_Italic;
+	z-index: 1;
+}
+.navigation li {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+}
+.navigation li a {
+	display: block;
+	color: white;
+	line-height: 75px;
+}
+.navigation li a:hover {
+	background-color: #c22b2b;
+	text-decoration: none;
+}
+.carousel-caption {
+	padding-bottom: 155px;
+}
+.lor {
+	color: #f9ad18;
+}
+.invest {
+	padding: 50px;
+}
+.invest span {
+	color: #f9ad18;
+}
+.future {
+	height: 290px;
+}
+.teg {
+	text-align: center;
+}
+.about {
+	background-image: url(./img/2.jpg);
+	background-size: cover;
+	display: block;
+	height: 700px;
+	color: white;
+	position: relative;
+}
+.block {
+	border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    height: 90px;
+    color: #fcf8e3;
+    position: relative;
+    left: -40px;
+}
+.block:hover {
+	background-color: #c22b2b;
+	border: 1px solid #c22b2b;
+}
+.icons {
+	padding-top: 65px;
+}
+.titles {
+	display: inline-block;
+    text-align: center;
+}
+.ph1 {
+	width: 152px;
+    height: 90px;
+    position: absolute;
+    left: -22px;
+}
+.ph2 {
+	width: 152px;
+    height: 90px;
+    position: absolute;
+    left: -30px;
+    top: 6px;
+}
+.ph3 {
+	width: 152px;
+    height: 90px;
+    position: absolute;
+    left: -29px;
+    top: 5px;
+}
+.tezis2 {
+	left: 10px;
+}
+.tezis3{
+	right: 25px;
+}
+.text {
+	text-align: center;
+}
+.text1 {
+	left: 45px;
+}
+.text2 {
+	right: -66px;
+}
+.text3 {
+	right: 25px;
+}
+.lilpic {
+    position: relative;
+    left: 55px;
+}
+.carousel2 {
+	height: 300px;
+	text-align: center;
+	font-size: large;
+	padding: 30px;
+}
+.carousel2 ol {
+	padding-left: 45px;
+}
+.carousel-indicators2 li{
+	background-color: transparent;
+	border: 1px solid #c22b2b;
+
+}
+.carousel-indicators .active {
+	background-color: #c22b2b; 
+}
+.works {
+	background-color: #ccc;
+	height: 300px;
+	padding: 65px;
+}
+.works h2 {
+	background-color: #ccc;
+}
+.works p {
+	text-align: center;	
+}
+.lilpic2 {
+	position: relative;
+    right: 8px;
+}
+.smth {
+	display: block;
+	padding: 20px;
+}
+.smth li {
+	display: inline-block;
+	font-family: CaviarDreams_Italic;
+}
+.smth li a {
+	text-decoration: none;
+	color: black;
+}
+.smth li a:hover {
+	color: #c22b2b;
+}
+.smth span {
+	font-weight: bolder;
+    font-size: x-large;
+    padding: 20px;
+}
+.pres img {
+	width: 350px;
+	opacity: 1
+}
+.pres img:hover {
+	width: 350px;
+	opacity: .5;
+}
+.photo5 {
+    left: 5px;
+    top: 2px;
+    position: relative;
+}
+.photo6 {
+	top: 5px;
+    left: 3px;
+    position: relative;
+}
+.tez {
+	padding: 30px;
+}
+.info {
+	padding: 30px;
+}
+.iconBot {
+	padding: 10px;
+    position: relative;
+    left: 30px;
+}
+.caption1 {
+	right: 34px; 
+}
+.caption2 {
+	left: 35px; 
+}
+.caption3 {
+	left: 8px; 
+}
+.info p {
+	color: #c22b2b;
+}
+.digits {
+    font-size: -webkit-xxx-large;
+    font-weight: bold;
+}
+.digits p {
+	color: black;
+	opacity: .5;
+}
+.digit1 {
+	right: 13px;
+}
+.digit2 {
+	right: 15px;
+}
+.digit3 {
+	left: 30px; 
+}
+.lilpic3 {
+	position: relative;
+	left: 10px;
+}
+.touch {
+	background-color: #db3939;
+    padding: 30px;
+}
+.touch p {
+	text-align: center;
+	padding: 30px;
+}
+.point {
+	right: 45px;
+    position: relative;
+    bottom: 65px;
+    z-index: 5;
+}
+.map {
+	overflow: hidden;
+    height: 450px;
+    width: 102.4%;
+}
+footer {
+	height: 120px;
+	background-color: #242424;
+	color: white;
+}
+footer p {
+	padding: 20px;
+	top: 30px;
+}
+
+#invest {
+	opacity: 0;
+	-webkit-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+#teg1 {
+	opacity: 0;
+	-webkit-transition: opacity 2s;
+	-o-transition: opacity 2s;
+	transition: opacity 2s;
+}
+#teg2 {
+	opacity: 0;
+	-webkit-transition: opacity 2s;
+	-o-transition: opacity 2s;
+	transition: opacity 2s;
+}
+#icon1 {
+	opacity: 0;
+	-webkit-transition: opacity 1.5s;
+	-o-transition: opacity 1.5s;
+	transition: opacity 1.5s;
+}
+#icon2 {
+	opacity: 0;
+	-webkit-transition: opacity 2.5s;
+	-o-transition: opacity 2.5s;
+	transition: opacity 2.5s;
+}
+#icon3 {
+	opacity: 0;
+	-webkit-transition: opacity 3.5s;
+	-o-transition: opacity 3.5s;
+	transition: opacity 3.5s;
+}
+#tez1 {
+	opacity: 0;
+	-webkit-transition: opacity 2.5s;
+	-o-transition: opacity 2.5s;
+	transition: opacity 2.5s;
+}
+#tez2 {
+	opacity: 0;
+	-webkit-transition: opacity 3.5s;
+	-o-transition: opacity 3.5s;
+	transition: opacity 3.5s;
+}
+#tez3 {
+	opacity: 0;
+	-webkit-transition: opacity 4.5s;
+	-o-transition: opacity 4.5s;
+	transition: opacity 4.5s;
+}
+#titles1 {
+	opacity: 0;
+	-webkit-transition: opacity 3s;
+	-o-transition: opacity 3s;
+	transition: opacity 3s;
+}
+#titles2 {
+	opacity: 0;
+	-webkit-transition: opacity 3s;
+	-o-transition: opacity 3s;
+	transition: opacity 3s;
+}
+#titles3 {
+	opacity: 0;
+	-webkit-transition: opacity 3s;
+	-o-transition: opacity 3s;
+	transition: opacity 3s;
+}
+#works {
+	opacity: 0;
+	-webkit-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+#job {
+	opacity: 0;
+	-webkit-transition: opacity 2s;
+	-o-transition: opacity 2s;
+	transition: opacity 2s;
+}
+#touch {
+	opacity: 0;
+	-webkit-transition: opacity 2s;
+	-o-transition: opacity 2s;
+	transition: opacity 2s;
+}
+#touchText {
+	opacity: 0;
+	-webkit-transition: opacity 3s;
+	-o-transition: opacity 3s;
+	transition: opacity 3s;
+}
