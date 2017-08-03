@@ -41,13 +41,14 @@
 	color: #f9ad18;
 }
 .invest {
-	padding: 50px;
+	padding: 20px;
+	text-align: center;
 }
 .invest span {
 	color: #f9ad18;
 }
 .future {
-	height: 290px;
+	height: 280px;;
 }
 .teg {
 	text-align: center;
@@ -143,6 +144,7 @@
 	background-color: #ccc;
 	height: 300px;
 	padding: 65px;
+	text-align: center;
 }
 .works h2 {
 	background-color: #ccc;
@@ -151,8 +153,9 @@
 	text-align: center;	
 }
 .lilpic2 {
-	position: relative;
-    right: 8px;
+    position: relative;
+    right: 190px;
+    width: 742px;
 }
 .smth {
 	display: block;
@@ -233,12 +236,13 @@
 	left: 30px; 
 }
 .lilpic3 {
-	position: relative;
-	left: 10px;
+    position: relative;
+    left: -215px;
 }
 .touch {
-	background-color: #db3939;
+    background-color: #db3939;
     padding: 30px;
+    text-align: center;
 }
 .touch p {
 	text-align: center;
