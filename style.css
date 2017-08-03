@@ -259,12 +259,61 @@ footer {
 	height: 120px;
 	background-color: #242424;
 	color: white;
+	position: relative;
 }
 footer p {
-	padding: 20px;
 	top: 30px;
+	text-align: center;
+	right: 60px;
 }
-
+.vk {
+    overflow: hidden;
+    width: 48px;
+    height: 38px;
+    padding: 10px;
+}
+.vk > a {
+	position: relative;
+    top: -73px;
+}
+.vk img {
+ position: relative;
+    left: -177px;
+    top: -59px;
+}
+.facebook {
+	overflow: hidden;
+    width: 47px;
+    height: 27px;
+    margin-left: -20px;
+    top: 10px;
+}
+.facebook > a {
+	position: relative;
+    top: -54px;
+    left: -40px;
+}
+.facebook img {
+    position: relative;
+    top: -37px;
+    left: 22px;
+}
+.instagram {
+    overflow: hidden;
+    width: 45px;
+    height: 26px;
+    margin-top: 13px;
+    margin-left: -20px;
+}
+.instagram > a {
+    position: relative;
+    top: -1px;
+}
+.instagram img {
+	position: relative;
+    top: -93px;
+    right: 124px;
+}
 #invest {
 	opacity: 0;
 	-webkit-transition: opacity 1s;
